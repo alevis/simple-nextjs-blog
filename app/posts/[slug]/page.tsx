@@ -12,7 +12,7 @@ import AuthorAttribution from '../../../components/AuthorAttribution';
 export async function generateMetadata({ params }: { params: { slug: string } }) {
   const post = await getPost({ params });
   return {
-    title: `${post.title} | Simple Next 13 Blog`,
+    title: `${post.title} | Simple Communications Blog`,
   };
 }
 
